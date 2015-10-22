@@ -1,9 +1,9 @@
 img {
 width: 80px;
 height:80px;
-  }
+}
 
-  nav{
+nav{
   display: inline-block;
   width: 250px;
   border: 1px solid black;
@@ -39,5 +39,5 @@ h2{
 	text-align:center;
 	border-width:.5px; /*largeur bordure*/
 	border-collapse:collapse; /*rapprocher les espaces entre bordure et ligne cellule */
-	width: 150px;
+	width: 200px;
 }
