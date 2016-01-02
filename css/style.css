@@ -8,15 +8,15 @@ li {list-style: none ;}
 a {text-decoration: none ;}
  /*---------------MENU---------*/
 #bloc-menu{
-float: left;
-width: 25%;
-height: 1500px;
-position: fixed;
-top: -150px;
-left: -150px;
-text-align: left;
-background: #6B363E;
-transition: ease 1s;
+  float: left;
+  width: 25%;
+  height: 1500px;
+  position: fixed;
+  top: -150px;
+  left: -150px;
+  text-align: left;
+  background: #6B363E;
+  transition: ease 1s;
 }
 
 #icone{
@@ -25,6 +25,7 @@ transition: ease 1s;
   border-radius: 50%;
   border: 3px solid #fff;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transform:rotate(-10deg);
 }
 #menu {
   margin-top: 50px;
@@ -50,7 +51,7 @@ transition: ease 1s;
 
 #liens {
   text-align: right;
-  padding-top: 180px;
+  padding-top:60px;
   margin-right: 40px;
   opacity: 0.5;
 }
@@ -58,14 +59,16 @@ transition: ease 1s;
 #bloc-menu a{
   color: #fff;
   line-height: 30px;
-  padding: 8px;
+  padding: 10px;
 }
 
 #bloc-menu p{
   margin-left: 180px;
+  padding-top:60px;
   font-size: 13px;
   color: #fff;
   opacity: 0.5;
+  transform:rotate(-10deg);
 }
  /*---------------PAGE------------*/
 #bloc-page{
