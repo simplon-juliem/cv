@@ -1,13 +1,22 @@
 *{ padding: 0; margin:0;}
 
+.clearfix {
+  clear: both;
+}
+
 li {list-style: none ;}
 a {text-decoration: none ;}
  /*---------------MENU---------*/
 #bloc-menu{
 float: left;
 width: 25%;
-height: 900px;
-background-color: #6B363E;
+height: 1500px;
+position: fixed;
+top: -150px;
+left: -150px;
+text-align: left;
+background: #6B363E;
+transition: ease 1s;
 }
 
 #icone{
@@ -63,4 +72,36 @@ background-color: #6B363E;
   width: 75%;
   height: 900px;
   background-color: #DFDFFD;
+}
+
+.intro {
+ animation: animationFrames ease 2s; /*nom de ton animation et le temps quelle va mettre à se réaliser! */
+ animation-iteration-count: 1; /* nombre de fois que l'animation va s'excuter */
+ transform-origin: 50% 50%; /*là où va partir l'animation dans l'espace */
+ animation-fill-mode: forwards;}
+
+ /*---------------ANIMATION------------*/
+@keyframes animationFrames {
+  0% {
+    opacity: 0;
+    transform: translateX(-1000px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+    transform: rotate(10deg);
+  }
+}
+@-moz-keyframes animationFrames {
+  0% {
+    opacity: 0;
+    transform: translateX(-1000px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+    transform: rotate(10deg);
+  }
 }
