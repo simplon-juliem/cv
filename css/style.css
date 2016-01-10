@@ -6,6 +6,7 @@
 
 li {list-style: none ;}
 a {text-decoration: none ;}
+
  /*---------------MENU---------*/
 #bloc-menu{
   float: left;
@@ -20,6 +21,7 @@ a {text-decoration: none ;}
 }
 
 #icone{
+
   margin-top: 200px;
   margin-left: 130px;
   border-radius: 50%;
@@ -27,6 +29,7 @@ a {text-decoration: none ;}
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   transform:rotate(-10deg);
 }
+
 #menu {
   margin-top: 50px;
 }
@@ -54,6 +57,11 @@ a {text-decoration: none ;}
   padding-top:60px;
   margin-right: 40px;
   opacity: 0.5;
+  transform:rotate(-10deg);
+}
+
+#liens pdf{
+  width: 20px;
 }
 
 #bloc-menu a{
@@ -71,12 +79,17 @@ a {text-decoration: none ;}
   transform:rotate(-10deg);
 }
  /*---------------PAGE------------*/
+
+ hr{
+   width: 90%;
+ }
+
+
 #bloc-page{
   text-align: center;
-  float: left;
   width: 75%;
   height: 900px;
-  background-color: #DFDFFD;
+  float: right;
 }
 
 .intro {
@@ -85,6 +98,106 @@ a {text-decoration: none ;}
  transform-origin: 50% 50%; /*là où va partir l'animation dans l'espace */
  animation-fill-mode: forwards;}
 
+ #moi {
+   height: 300px;
+   width: 90%;
+   margin-top: 20px;
+   color: #6D353D;
+   border-radius: 10px;
+   background-color: #eee;
+
+ }
+#moi h2{
+display:table-row;
+}
+
+#moi .perdu{
+float: left;
+width: 30%;
+margin: 20px;
+clear: left;
+}
+
+#moi p{
+  padding: 20px;
+  text-align: justify;
+  text-align: left;
+  vertical-align: middle;
+}
+
+#moi .perdu{
+  float: left;
+  width: 30%;
+  margin: 20px;
+}
+
+ #parcours {
+   width: 90%;
+   height: 300px;
+   margin-top: 20px;
+   color: #6D353D;
+   border-radius: 10px;
+   background-color: #eee;
+ }
+
+ #experiences {
+   width: 90%;
+   height: 450px;
+   margin-top: 30px;
+   color: #6D353D;
+   border-radius: 10px;
+   background-color: #eee;
+ }
+
+ #divers {
+   width: 90%;
+   height: 200px;
+   margin-top: 30px;
+   color: #6D353D;
+   border-radius: 10px;
+   background-color: #eee;
+ }
+
+ #contact {
+   width: 90%;
+   height: 100px;
+   margin-top: 30px;
+   color: #6D353D;
+   border-radius: 10px;
+   background-color: #eee;
+ }
+
+ h1, h2 {
+   color: #6B363E;
+   text-align: left;
+   margin: 20px;
+   font-family: 'Courgette', cursive;
+ }
+
+ h1 {
+   padding-top: 10px;
+   padding-left: 10px;
+   color: #6B353D;
+ }
+
+ h2 {
+   color: #6B363E;
+   text-align: left;
+   margin: 20px
+ }
+
+  /*---------------SECTION------------*/
+#bloc-date{
+float: left;
+
+}
+#bloc-texte{
+text-align: center;
+}
+
+#bloc1{
+
+}
  /*---------------ANIMATION------------*/
 @keyframes animationFrames {
   0% {
